@@ -16,4 +16,4 @@ Dieses Projekt ist eine einfache, aber ansprechende Webseite für ein Restaurant
 
 1. **Repository klonen**
    ```bash
-   git clone 
+   git clone https://github.com/betula0/My-Restaurant-Project.git
