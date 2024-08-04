@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Food Planet: Galerie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main_style.css">
+        <link href="css/nivo-slider.css" rel="stylesheet">
+        <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+   
+        <style>
+            
+
+            .control_nav_positionieren {  
+                        width: 140%; height: auto;}/**/
+
+
+            /* #slider1 img { border-radius: 0;} */
+
+            .galerie_section1 {/*background-color: rgba(137, 43, 226, 0.425);*/
+                min-height: 600px; padding:  0; 
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                 gap: 10rem;}
+
+            .calltoaction_btn2 { width: 20%; background-color: #8C1C03;}
+             .calltoaction_btn2 a {color: #fff}
+
+            @media (max-width: 1404px) {
+                /* #header_titelbild_unterseiten {background-color: green;} */
+                .galerie_section1 {display: flex;
+                       justify-content: space-around;
+                        align-items: center;}
+
+               /* #content {margin-top: 5rem;} */
+            }
+            @media (max-height: 620px) {
+                    #header_titelbild_unterseiten {height: 100vh;}
+                }
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div id="wrapper">
+        <!-- ######### Web-Seiten Header Bereich ############-->
+ 
+            
+        <nav id="main_navi">
+            
+            <ul>
+                <li><a href="foodplanet_index.html" title="zurück zur Startseite"><img class="logo1" src="img/titelbild02.jpg" alt="Logo"></a></li>
+                <li class="btn home_btn" ><a href="foodplanet_index.html"><i class="bi bi-house"></i><span>Home</span></a></li>
+                <li class="btn karte_btn" ><a href="karte.html"><i class="bi bi-card-list"></i><span>Karte</span></a></li>
+                <li class="btn galerie_btn" ><a href="galerie.html"><i class="bi bi-images"></i><span>Galerie</span></a></li>
+                <li class="btn uberuns_btn" ><a href="uberuns.html"><i class="bi bi-file-earmark-person"></i><span>Über uns</span></a></li>
+                <li class="btn blog_btn" ><a href="blog.html"><i class="bi bi-substack"></i><span>Blog</span></a></li>
+                <li class="btn kontakt_btn" ><a href="kontakt.html"><i class="bi bi-person-lines-fill"></i><span>Kontakt</span></a></li>
+                </ul>
+            
+        </nav>
+
+            <!-- ######### Web-Seiten Main Content Bereich ############-->
+        
+           
+                    
+        <div id="header_titelbild_unterseiten">
+        
+			
+            
+            <div class="h1_header_us">
+                <div class="header_bg">
+                <h1>Food Planet</h1>
+                <h2>Unsere Galerie</h2>
+                <p class="header_intro_p">Tauchen Sie ein in die visuelle Welt des Food Planet Bistros und lassen Sie sich von unseren kulinarischen Kreationen inspirieren.</p>
+                
+                
+            </div>
+            </div>
+   
+        
+        <!-- <div id="slider1">
+            <img alt="Fotos mit Foodschalen" src="img/titelbild02.jpg">
+        </div> -->
+        
+    </div>
+    
+
+
+            <main id="content">   
+                <section class="galerie_section1">  
+
+                    <div id="slider1" >
+                        <div class="control_nav_positionieren">
+                          <div id="slider" class="nivoSlider">
+                            <img src="img/vorspeisen01.jpg" alt="" data-thumb="img/vorspeisen01.jpg"> 
+                            <img src="img/vorspeisen02.jpg" alt="" data-thumb="img/vorspeisen02.jpg">
+                            <img src="img/vorspeisen03.jpg" alt="" data-thumb="img/vorspeisen03.jpg">
+                            <img src="img/vorspeisen04.jpg" alt="" data-thumb="img/vorspeisen04.jpg"> 
+                            <img src="img/hauptgericht1.jpg" alt="" data-thumb="img/hauptgericht1.jpg"> 
+                            <img src="img/hauptgericht2.jpg" alt="" data-thumb="img/hauptgericht2.jpg">
+                            <img src="img/hauptgericht3.jpg" alt="" data-thumb="img/hauptgericht3.jpg">
+                            <img src="img/dessert1.jpg" alt="" data-thumb="img/dessert1.jpg"> 
+                            <img src="img/dessert2.jpg" alt="" data-thumb="img/dessert2.jpg">
+                            <img src="img/dessert3.jpg" alt="" data-thumb="img/dessert3.jpg">
+                            <img src="img/dessert4.jpg" alt="" data-thumb="img/dessert4.jpg">
+                            <img src="img/getränke1.jpg" alt="" data-thumb="img/getränke1.jpg">
+                            <img src="img/getränke2.jpg" alt="" data-thumb="img/getränke2.jpg">
+                            <img src="img/getränke3.jpg" alt="" data-thumb="img/getränke3.jpg">
+                          </div>
+                        </div> 
+                    </div>
+                    <div class="btn calltoaction_btn2" ><a href="karte.html">Zur Speisekarte</a></div>
+
+                </section>   
+            
+                
+             
+             </main>
+        
+        
+        
+        <!-- ######### Web-Seiten Footer Bereich ############-->
+            
+        <footer id="footer">
+            <div>
+                <a href="#">Impressum</a>
+                <a href="#">AGBs</a>
+            </div>
+            <div> &copy; 2024 Food Planet. Alle Rechte vorbehalten.</div>
+            <div>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+        </footer>
+
+            </div>
+            
+        <script src="js/jquery.1.7.1.js"></script>
+		<script src="js/jquery.nivo.slider.pack.js"></script>
+		<script>
+			$(window).load(function() {
+				$('#slider').nivoSlider({
+					effect: 'fold', // Specify sets like: 'fold,fade,sliceDown'
+					slices: 1, // For slice animations
+					boxCols: 8, // For box animations
+					boxRows: 4, // For box animations
+					animSpeed: 1500, // Slide transition speed
+					pauseTime: 6000, // How long each slide will show
+					startSlide: 0, // Set starting Slide (0 index)
+					directionNav: true, // Next & Prev navigation
+					controlNav: true, // 1,2,3... navigation
+					controlNavThumbs: false, // Use thumbnails for Control Nav
+					pauseOnHover: false, // Stop animation while hovering
+					manualAdvance: false, // Force manual transitions
+					prevText: '', // Prev directionNav text
+					nextText: '', // Next directionNav text
+					randomStart: false, // Start on a random slide
+					beforeChange: function(){}, // Triggers before a slide transition
+					afterChange: function(){}, // Triggers after a slide transition
+					slideshowEnd: function(){}, // Triggers after all slides have been shown
+					lastSlide: function(){}, // Triggers when last slide is shown
+					afterLoad: function(){} // Triggers when slider has loaded			
+				});
+			});
+            
+		</script>
+            
+            
+    </body>
+</html>

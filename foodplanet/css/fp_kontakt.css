@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document für Kontakt- Seite */
+
+.h1_header_us { background-image: url(../img/titelbild_bg4.jpg);
+}
+
+#slider1 { border: 2px solid;}
+
+#slider1 p {color: #594234;
+    margin-top:1rem; 
+    font-size: 1.7rem;}
+
+    /* @media (max-width: 934px) {
+        #header_titelbild {background-color: blue; margin-top: 10rem; display: flex; flex-direction: column; justify-content: flex-start;}
+        .h1_header p {font-size: 1.5rem;}
+        .h1_header {width: 80%;}
+        #slider1 {max-width: 100%;}
+        .kontakt_info { font-size: 1.5rem;}
+        #content {margin-top: 5rem;}
+    } */
+
+
+    .kontakt_intro_box { background-color:#81a65dec;
+    display: flex;
+     justify-content: space-evenly;
+    border-radius: 0.5rem;
+margin-top: 2rem;}
+
+    .kontakt_intro_box h2 {color: #FFF} 
+
+#kontakt_intro_text {min-height: 600px;
+    padding: 1rem 6rem;
+    border-radius: 0.625rem;
+    /* border: 2px solid black; */
+    font-size: 1.5rem;
+    padding-top: 8rem;
+}
+.kontakt_formular {border: 2px solid black;
+border-radius: 0.5rem;
+padding: 2rem;}
+
+
+
+
+/* Formular Selektoren */
+
+label {
+    display: block;
+    margin: 0.3125rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input [type="text"], input [type="email"] select, textarea {
+
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+select {font-size: 1.5rem; width: 25%; border-radius: 0.625rem}
+input {width: 50%;height: 2rem; border-radius: 1rem; }
+
+
+textarea {height: 15rem; width: 100%; border-radius: 1rem;}
+
+button {border-radius: 0.625rem;
+background-color: #82a6bc;
+border: none;
+height: 2rem;
+width: 10rem;
+font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.datenschutz { margin-bottom: 1rem; 
+}
+/**/
+
+input[type="radio"] { width: 5%; } 
+
+input[type="radio"] + label { display: inline-block; } 
+
+button {background-color: #81A65D; color: black; 
+
+}
+
+button:hover {
+    color: #8C1C03;
+}
+
+

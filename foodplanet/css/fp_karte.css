@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document für Speisekarte- UnterseiteSeite */
+.h1_header_us { background-image: url(../img/titelbild_bg1.jpg);
+}
+
+
+  
+  h3 {font-size: 1.875rem; 
+    text-align: left; 
+    background-color: #81A65D;
+ 
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* im Header Call to action, Buttons für die Speisekarten Menüs */
+#karte_navi { display: flex; 
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem
+ }
+
+.karte_btn {width: 20%; 
+  border-radius: 0.5rem;  box-shadow: 4px 4px 3px 1px #000000e0;}
+
+
+#karte_navi a {text-decoration: none;
+  background-color: #81A65D;
+  border-radius: 0.5rem;
+  color: #142833;
+  width: 100%;
+  height: 3.5rem;
+  font-size: 1.5rem; 
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  
+
+/*  */
+
+
+
+   .button_menu{background-color: #8C1C03; 
+    width: 10%;
+   /* position: sticky;  top: 22rem; */
+     margin-right:1rem; 
+     border-radius: 0.5rem; 
+     border:none; }  
+
+  
+  .button_menu a {text-decoration: none; 
+    font-size: 1rem; 
+     height: 100%; 
+     width: 100%;
+    color: #FFF}
+
+section {
+  max-height: 600px;
+}
+
+
+
+/* Accoodionn aud dem SpyAccordion  */
+
+
+/* fürden Inhalt der */
+.AccordionPanelContent {
+  
+	 /**/
+	margin: 0px;
+	padding: 2rem;
+	max-height: 30rem;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.AccordionPanelOpen .AccordionPanelTabHover, button a:hover {
+	color: #fff5f5e8;
+}
+
+
+
+ /* #vorspeisen_karte {background-color: #81a65daf;}
+#hauptgerichte_karte { background-color: #f2dfbb71;}
+#dessert_karte { background-color: #f28f38a1;}
+#getraenke_karte {background-color: #594234a2;}*/
+
+
+/* Speisekarte-Inhalt */
+.flex_items { display: flex; justify-content: space-between; margin-right: 2rem;}
+.gericht_name, .preis { 
+  /* background-color:#81A65D; */
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+
+.gericht_beschr { margin-bottom: 2rem; font-size: 1.rem; }
+
+.AccordionPanelContent li { margin-bottom: 1rem;}
+
+/* @media (max-width: 1404px) {
+  #content {margin-top: 10rem;} 
+  .AccordionPanelContent {height: 12rem; font-size: 1rem;}
+  h3 {height: 1.5rem}
+  } */
+
+  
